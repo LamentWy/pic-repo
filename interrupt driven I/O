@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T09:23:30.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.4.2" etag="s8JbMNBssK0_tHTMlZoF" type="github"><diagram id="fVS7K6ZhYFTcN-ggh4Sv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-02T10:13:41.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="E6rzJcsUtbDLLzP-JKdy" version="14.4.2" type="github">
+  <diagram id="fVS7K6ZhYFTcN-ggh4Sv" name="Page-1">
+    <mxGraphModel dx="2066" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eNhjIS12omujuYaLAAzz-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;用户进程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="80" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;CPU&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="359" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;设备&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-5" value="&lt;font style=&quot;font-size: 22px&quot;&gt;I/O中断时序图&lt;/font&gt;" style="text;html=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="324" y="20" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;时间&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eNhjIS12omujuYaLAAzz-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="195" y="240" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.022;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-9" target="eNhjIS12omujuYaLAAzz-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
+          <mxGeometry x="394" y="240" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;read()&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="45" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-17" value="&lt;font style=&quot;font-size: 16px&quot;&gt;发起读请求&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="255" width="102.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-18" value="忙别的" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="394" y="310" width="40" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-23" value="&lt;font style=&quot;font-size: 18px&quot;&gt;I/O 设备从外围设备获取数据&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="285" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-15" target="eNhjIS12omujuYaLAAzz-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="300" />
+              <mxPoint x="670" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
+          <mxGeometry x="394" y="420" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-31" value="" style="endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-15" target="eNhjIS12omujuYaLAAzz-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-32" value="&lt;font style=&quot;font-size: 16px&quot;&gt;中断通知&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
+          <mxGeometry x="394" y="520" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-26" target="eNhjIS12omujuYaLAAzz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-33" target="eNhjIS12omujuYaLAAzz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-36" value="&lt;font style=&quot;font-size: 16px&quot;&gt;CPU 请求数据&amp;nbsp;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="469" y="460" width="130" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-37" value="&lt;font style=&quot;font-size: 16px&quot;&gt;I/O 模块传输数据&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="150" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-39" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eNhjIS12omujuYaLAAzz-33" target="eNhjIS12omujuYaLAAzz-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="270" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-40" value="&lt;font style=&quot;font-size: 18px&quot;&gt;read()结束&lt;br&gt;由于是用户进程数据还得拷贝到用户缓冲区。&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eNhjIS12omujuYaLAAzz-42" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#003366&quot;&gt;可以看出，整个过程中用户进程完全阻塞，CPU虽然不需要忙等了，但是依然需要负责把数据传回去。&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;dashed=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="770" width="720" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
